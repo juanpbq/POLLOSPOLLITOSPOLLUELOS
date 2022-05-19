@@ -19,6 +19,8 @@ html:after, html:before {
     height: 2rem;
 }
 
+
+
 .header_img {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -74,6 +76,13 @@ html:after, html:before {
 .container {
     margin: 0 auto;
     padding: 0 1rem;
+    width: 56rem;
+}
+
+.containermapa {
+    margin: 0 auto;
+    border: 5px;
+    border-color: #941c21;
     width: 56rem;
 }
 
