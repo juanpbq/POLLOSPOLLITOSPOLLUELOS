@@ -43,6 +43,7 @@ html:after, html:before {
 }
 
 .header__nav {
+    border-radius: 00.4rem;
     background: #002a86;
     height: 3em;
     line-height: 3em;
@@ -50,6 +51,7 @@ html:after, html:before {
     list-style: none;
     text-transform: uppercase;
 }
+
 
 .header__nav li:not(:first-child):before {
     content: "";
@@ -68,8 +70,13 @@ html:after, html:before {
     vertical-align: top;
 }
 
+
+.header__nav a:hover{
+    background-color:#941c21;
+    color: #002a86;
+}
 .header__nav a {
-    color: #fff;
+    color:#fccc00;
     transition: color .3s;
 }
 
@@ -98,11 +105,13 @@ html:after, html:before {
 }
 
 .welcome img {
-    height: 98%;
+    height: 19.15rem;
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 1;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 6rem;
 }
 
 .welcome__container {
